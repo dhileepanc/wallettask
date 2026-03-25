@@ -38,7 +38,6 @@ public class TransactionAdapter extends RecyclerView.Adapter<TransactionAdapter.
         holder.binding.transactionDate.setText(sdf.format(new java.util.Date(transaction.getTimestamp())));
 
         if ("Transfer".equals(transaction.getMethod())) {
-            // Transfer transactions: description already contains "Sent to <name>" or "Received from <name>"
             if ("Income".equals(transaction.getType())) {
                 holder.binding.transactionIcon.setImageResource(R.drawable.ic_income);
                 holder.binding.transactionIcon.setColorFilter(android.graphics.Color.parseColor("#4CAF50"));
