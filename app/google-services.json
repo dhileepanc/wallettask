@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "846083332845",
+    "project_id": "wallettask-b695b",
+    "storage_bucket": "wallettask-b695b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846083332845:android:710896ec5968eaf5c7cae4",
+        "android_client_info": {
+          "package_name": "com.app.wallettask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846083332845-29cot7aasmcv0gfugic22fnv167hs6r3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.wallettask",
+            "certificate_hash": "0ec05cfabc89fb2bf247632141c168c14fd82016"
+          }
+        },
+        {
+          "client_id": "846083332845-fep6hup2cdh85vj5cqej3i1torp7ko1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVJHT9NjFUQgWnEPnj0NMyFBTMUUwAMXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846083332845-fep6hup2cdh85vj5cqej3i1torp7ko1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

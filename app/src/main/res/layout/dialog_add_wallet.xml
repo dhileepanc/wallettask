@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Wallet"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="24dp" />
+
+    <Spinner
+        android:id="@+id/method_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/btn_default" />
+
+    <EditText
+        android:id="@+id/description_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/amount_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="SUBMIT"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
